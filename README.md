@@ -51,6 +51,13 @@ Execute all the tests in the project using:
 ```bash
 mvn test
 ```
+
+To code generate a recording of your steps;
+
+```bash
+npx playwright codegen https://opensource-demo.orangehrmlive.com
+```
+
 ### 🔧 Configuration
 
 Update `src/main/resources/config.properties`:
