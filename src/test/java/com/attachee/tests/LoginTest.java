@@ -12,17 +12,7 @@ public class LoginTest extends Base{
     public void testValidLogin() {
         LoginPage loginPage = new LoginPage(page);
         loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
-
     }
 
-    @Test (dependsOnMethods = "testValidLogin")
-    public void navigateSideButtons(){
-        AccessMaintainersPages accessMaintainersPages = new  AccessMaintainersPages(page);
-        accessMaintainersPages.goToLeavePage();
-        accessMaintainersPages.goToRecruitmentPage();
-        accessMaintainersPages.goToPerformancePage();
 
-        System.out.println("We are done yaaaaaaaaaaay");
-
-    }
 }

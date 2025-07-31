@@ -1,8 +1,8 @@
 <suite name="Simple Playwright Test Suite">
-  <test name="Login Tests" preserve-order="true">
+  <test name="Demo Test Suite" preserve-order="true">
     <classes>
-      <class name="tests.LoginTest"/>
-<!--      <class name="tests.AccessMaintainersTest"/>-->
+      <class name="com.attachee.tests.LoginTest"/>
+      <class name="com.attachee.tests.AccessMaintainersTest"/>
     </classes>
   </test>
 </suite>

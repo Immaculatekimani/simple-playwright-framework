@@ -56,6 +56,7 @@ To code generate a recording of your steps;
 
 ```bash
 npx playwright codegen https://opensource-demo.orangehrmlive.com
+npx playwright install
 ```
 
 ### 🔧 Configuration
